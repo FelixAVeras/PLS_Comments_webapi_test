@@ -1,0 +1,15 @@
+message
+<input id="txt_message" type="text">
+sala
+<input id="txt_id" type="text">
+<button (click)="send()">Enviar</button>
+<button (click)="connect()">Connectar</button>
+
+
+
+
+<ul>
+    <li *ngFor="let c of comments">{{ c.body }}</li>
+</ul>
+
+<!-- {{ comments | json}} -->
